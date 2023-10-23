@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>Provides a lightweight and versatile collection of Data Transfer Objects (DTOs) tailored for server responses, facilitating seamless communication and data exchange within your .NET 7 applications. These response DTOs are designed to enhance the clarity and efficiency of server interactions, simplifying the process of handling and transmitting data across your software ecosystem.</Description>
+		<VersionPrefix>1.0.0</VersionPrefix>
+
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Copyright>Copyright 2023 Dtopiast</Copyright>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+		<FileVersion>$(VersionPrefix)</FileVersion>
+		<Version>$(VersionPrefix)</Version>
+		<Authors>Dtopiast</Authors>
+		<RepositoryType>git</RepositoryType>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageIcon>JustLogo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Dto.Response</RepositoryUrl>
+		<PackageTags>nugget-package, data-transfer-objects, server-responses, .net7, lightweight, efficient, communication, data-exchange</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\Images\JustLogo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="OnionCrafter.Action.Response.Base" Version="1.0.0" />
+	  <PackageReference Include="OnionCrafter.Dto.Base" Version="1.0.0" />
+	</ItemGroup>
+</Project>
